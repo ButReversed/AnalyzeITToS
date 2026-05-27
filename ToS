@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service & Privacy Policy</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        @page {
+            size: A4;
+            margin: 20mm 15mm;
+            background-color: #f8fafc;
+        }
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #1e293b;
+            background-color: #f8fafc;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+        .header-banner {
+            background-color: #0f172a;
+            color: #ffffff;
+            margin: -20mm -15mm 25px -15mm;
+            padding: 30px 15mm;
+            text-align: center;
+            border-bottom: 5px solid #38bdf8;
+        }
+        .header-banner h1 {
+            font-size: 24pt;
+            margin: 0 0 8px 0;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+        }
+        .header-banner p {
+            font-size: 11pt;
+            margin: 0;
+            color: #94a3b8;
+        }
+        h2 {
+            font-size: 15pt;
+            color: #0f172a;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid #e2e8f0;
+            page-break-after: avoid;
+        }
+        h3 {
+            font-size: 12pt;
+            color: #0284c7;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            font-weight: 600;
+            page-break-after: avoid;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+        ul {
+            margin-top: 0;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .effective-date {
+            font-style: italic;
+            color: #64748b;
+            margin-bottom: 20px;
+            font-size: 10pt;
+        }
+        .divider {
+            margin: 40px 0;
+            border: 0;
+            height: 1px;
+            background: #cbd5e1;
+            page-break-after: avoid;
+        }
+        .explanation-box {
+            background-color: #f0fdf4;
+            border-left: 4px solid #22c55e;
+            padding: 12px 15px;
+            margin: 15px 0;
+            font-size: 9.5pt;
+            color: #166534;
+            page-break-inside: avoid;
+            border-radius: 0 4px 4px 0;
+        }
+        .explanation-box strong {
+            color: #14532d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-banner">
+            <h1>Legal Documentation</h1>
+            <p>Terms of Service & Privacy Policy for Bot Integration</p>
+        </div>
+
+        <!-- TERMS OF SERVICE -->
+        <h2>Terms of Service (ToS)</h2>
+        <div class="effective-date">Effective Date: May 27, 2026</div>
+        
+        <p>Welcome to the Bot. By integrating, accessing, or utilizing this Bot within your server, organization, or platform, you agree to be legally bound by these Terms of Service. If you do not agree to these terms, you are unauthorized to use the Bot and must disconnect it immediately.</p>
+
+        <h3>1. Scope of Service and License Grant</h3>
+        <p>The Bot provides an automated interface for security analysis, threat intelligence gathering, and file evaluation. Subject to your strict compliance with these Terms, you are granted a limited, non-exclusive, non-transferable, revocable license to utilize the Bot for internal security assessments and threat mitigation.</p>
+
+        <h3>2. Acceptable Use and Absolute Restrictions</h3>
+        <p>This Bot is engineered specifically for investigating highly suspicious payloads and suspected malware. It is <strong>not</strong> a general utility cloud-storage provider, file-sharing application, or backup solution.</p>
+        
+        <p>You are strictly prohibited from submitting, uploading, or routing the following categories of files through the Bot:</p>
+        <ul>
+            <li><strong>Benign Files:</strong> Standard, safe operational files, documents, or binaries that present no objective security risks or indicators of compromise (IoCs).</li>
+            <li><strong>Adware:</strong> Software designed to automatically feed, display, or download advertising materials to a system, which does not constitute severe malicious behavior.</li>
+            <li><strong>PUPs (Potentially Unwanted Programs):</strong> Applications that may be perceived as unwanted or redundant by the user (e.g., browser toolbars, registry cleaners), but lack explicit malicious intent.</li>
+            <li><strong>Exploits or Live Malware targeting unauthorized networks:</strong> You may not use the Bot to facilitate active cyberattacks, penetration testing without written consent, or any form of unlawful digital disruption.</li>
+        </ul>
+
+        <div class="explanation-box">
+            <strong>Explanation:</strong> <em>IoCs</em> (Indicators of Compromise) are digital clues or evidence that indicate a system has been breached or that a specific file contains malicious properties.
+        </div>
+
+        <h3>3. User Representations and Warranties</h3>
+        <p>By submitting any file or data string to the Bot, you represent and warrant that you possess the explicit legal rights, ownership, or authorized administrative permissions to handle and analyze the submitted asset, and that the submission does not infringe upon any third-party intellectual property rights, trademarks, copyrights, or trade secrets.</p>
+
+        <h3>4. Indemnification</h3>
+        <p>You agree to indemnify, defend, and hold harmless the Bot developers, contributors, and affiliates from and against any and all claims, liabilities, damages, losses, costs, or expenses (including reasonable attorney fees) arising from your breach of these Terms, misuse of the Bot, or violation of any third-party rights.</p>
+
+        <h3>5. Termination of Service</h3>
+        <p>We reserve the right, at our sole discretion, without prior notice or liability, to suspend, terminate, or restrict your access to the Bot for any reason, including but not limited to excessive API ratelimiting abuse, violation of content restrictions, or behavior detrimental to the Bot's infrastructure.</p>
+
+        <h3>6. Limitation of Liability & Disclaimers</h3>
+        <p>THE BOT IS PROVIDED ON AN "AS-IS" AND "AS-AVAILABLE" BASIS, WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. THE DEVELOPERS DISCLAIM ALL WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE DEVELOPERS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY OR INDIRECTLY, ARISING OUT OF YOUR USE OR INABILITY TO USE THE SERVICE.</p>
+
+        <hr class="divider">
+
+        <!-- PRIVACY POLICY -->
+        <h2>Privacy Policy</h2>
+        <div class="effective-date">Effective Date: May 27, 2026</div>
+
+        <p>We prioritize the integrity and security of our users' systems. This Privacy Policy clarifies how data is ingested, routed, and handled by the Bot during the execution of threat analysis.</p>
+
+        <h3>1. Data Ingestion and Third-Party Data Routing</h3>
+        <p>In order to perform advanced threat analysis, sandboxing, and behavior evaluation, all files, URLs, or hashes submitted to the Bot are instantly transmitted to <strong>threat.rip</strong>, an external, third-party threat intelligence platform.</p>
+        <p>By utilizing this Bot, you acknowledge and grant explicit consent for this automated data offloading. Processing is governed by the independent operational infrastructure of threat.rip, and data may be shared within the broader cyber security research ecosystem to enhance global defense mechanisms.</p>
+
+        <div class="explanation-box">
+            <strong>Explanation:</strong> <em>Sandboxing</em> refers to executing suspicious files within an isolated, secure virtual environment to observe behavior safely. A <em>hash</em> represents a unique cryptographic fingerprint generated from the file contents.
+        </div>
+
+        <h3>2. Prohibited Disclosures: Personally Identifiable Information (PII)</h3>
+        <p><strong>You are under a strict legal and operational obligation to ensure that no submitted files contain Personally Identifiable Information (PII) or confidential personal data.</strong></p>
+        <p>The Bot does not incorporate automated scrubbing filters to strip personal data from your submissions. Submitting raw system dumps, event logs, or configuration profiles containing sensitive user data is heavily prohibited. Forbidden data points include, but are not limited to:</p>
+        <ul>
+            <li>First and last names, physical addresses, geolocation coordinates, or phone numbers.</li>
+            <li>Authentication credentials, active session tokens, passwords, private cryptographic keys, and API secrets.</li>
+            <li>Financial data, banking details, credit card numbers, or transaction histories.</li>
+            <li>Medical, health, biometric, or government-issued identification records.</li>
+        </ul>
+        <p>Any data leakage, regulatory non-compliance, or privacy violations resulting from the failure to sanitize files prior to submission remains the exclusive liability of the user.</p>
+
+        <h3>3. Data Retention and Public Ecosystem Feeds</h3>
+        <p>Files and metadata processed by the system may be archived indefinitely by third-party intelligence partners for chronological threat tracking, heuristic analysis, and malware signature generation. Do not submit any proprietary source code, confidential business data, or assets that must remain confidential under Non-Disclosure Agreements (NDAs).</p>
+
+        <div class="explanation-box">
+            <strong>Explanation:</strong> <em>Heuristic analysis</em> evaluates an unknown file based on behavioral patterns and rule characteristics rather than looking for an exact signature match.
+        </div>
+
+        <h3>4. Regulatory Compliance Disclaimer</h3>
+        <p>Users are solely responsible for ensuring that their use of the Bot aligns with local and international data protection laws applicable to their jurisdiction, such as GDPR (General Data Protection Regulation), CCPA (California Consumer Privacy Act), or LGPD (Lei Geral de Proteção de Dados).</p>
+
+        <h3>5. Policy Modifications</h3>
+        <p>We reserve the right to amend, update, or rewrite this Privacy Policy at any time. Changes become immediately active upon deployment. Your continued usage of the Bot following any modifications denotes a formal acceptance of the updated privacy practices.</p>
+    </div>
+</body>
+</html>
